@@ -1,5 +1,5 @@
-DDWSnippets {
-	classvar <snips, action, <>path,
+ DDWSnippets {
+	classvar <>snips, action, <>path,
 	<>autoEnable, <>verbose = true,
 	<>hotkeyCode = 96, <>hotkeyMods = 262144;
 
@@ -140,7 +140,7 @@ DDWSnippets {
 		};
 
 		window = Window("Snippets",
-			Rect.aboutPoint(Window.screenBounds.center, 120, 90));
+			Rect.aboutPoint(Window.screenBounds.center, 230, 200));
 		window.layout = VLayout(
 			textField = TextField().fixedHeight_(20),
 			listView = ListView()
@@ -240,6 +240,20 @@ DDWSnippets {
 				"DDWSnippets could not open config file at %".format(filePath).warn;
 			}
 		};
+	}
+
+	*load { |version=\node|
+		case
+		{version==\node} {this.snips="SCTweets/SCTweets-nodes.scd".resolveRelative.load}
+		{version==\mod1} {this.snips="SCTweets/SCTweets-nodes-mod1.scd".resolveRelative.load}
+
+	}
+
+
+	*insertRand { |doc(Document.current)|
+		var len=snips.size;
+		var keys=snips.keys.asArray;
+		^this.insert(doc,keys[len.rand])
 	}
 
 	// GUI to read hotkey from user
