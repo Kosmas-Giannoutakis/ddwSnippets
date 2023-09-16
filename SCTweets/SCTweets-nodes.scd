@@ -16,7 +16,7 @@ Dictionary.newFrom([
 		).round([2e-3,4e-3]),
 		2);
 	x
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"untuned note ascending - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -33,7 +33,7 @@ Dictionary.newFrom([
 					1e3*a.abs)*50),
 				a).distort));
 	x;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"repeated tone glitch 1 - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -52,7 +52,7 @@ Dictionary.newFrom([
 				0.9),
 			1,k*0.3,100*k))
 	;f
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"repeated tone glitch 2 - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -71,7 +71,7 @@ Dictionary.newFrom([
 				0.9),
 			1,k*0.3,50*f));
 	f
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"raining - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -89,7 +89,7 @@ Dictionary.newFrom([
 			a*1.5+1.5,
 			45
 	)}!80).dup
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"frog quacking - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -104,7 +104,7 @@ Dictionary.newFrom([
 		a,9,
 		a.abs.lag(2)*9,
 		a.abs.lag(1)*100)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"atonal rhythmic accompaniment - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -121,7 +121,7 @@ Dictionary.newFrom([
 			1,
 			LFNoise0.ar(8!2).range(1e-4,0.02)));
 	x.tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"tone motif - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -137,7 +137,7 @@ Dictionary.newFrom([
 		TRand.ar(0,0.01,p).round(15e-4),
 		TRand.ar(-30,30,p)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"gliding clusters - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -155,7 +155,7 @@ Dictionary.newFrom([
 			Pulse.ar([90,90.01],x),
 			10,x*4,x),
 		10,4-(x*4),1-x)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"minimal patterns - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -170,7 +170,7 @@ Dictionary.newFrom([
 			Decay.kr(p,3)),
 		7,
 		2)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"percussive pentatonic - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -184,7 +184,7 @@ Dictionary.newFrom([
 		[a,a+0.2].midicps,
 		a/2e3,67-a
 	)).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"percussive phrygian - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -198,7 +198,7 @@ Dictionary.newFrom([
 		[a,a+7].midicps,
 		a/3e3,67-a
 	)).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"kick pattern - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -220,7 +220,7 @@ Dictionary.newFrom([
 			x*20+[45.1,45],
 			0.1
 	)).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"synth polyrhythms - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -234,7 +234,7 @@ Dictionary.newFrom([
 			TIRand.kr(1,6,p),
 			a+1*3)}!3;
 	BPF.ar(r.sum,[k,k+0.5],1/9,50).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"glissandi to major - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -255,7 +255,7 @@ Dictionary.newFrom([
 		)}!9
 	)}!40
 	)!2*a
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"happy cricket - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -269,7 +269,7 @@ Dictionary.newFrom([
 		[b=TRand.ar(1500,2e3,Impulse.ar(16)).lag,b+p],
 		1
 	).mean!2**2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"high morse noise - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -288,7 +288,7 @@ Dictionary.newFrom([
 			)
 		)
 	};tanh(v*99)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"big music box - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -319,7 +319,7 @@ Dictionary.newFrom([
 			200
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"beat synth outbreaks - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -339,7 +339,7 @@ Dictionary.newFrom([
 			0.99
 		).fold2(pi)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"chiptune overtones - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -360,7 +360,7 @@ Dictionary.newFrom([
 		).sin.sqrt.tanh,
 		0.3
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"glitch marching - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -381,7 +381,7 @@ Dictionary.newFrom([
 		)
 	);
 	k.mean!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"synth harmonics outbreak - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -403,7 +403,7 @@ Dictionary.newFrom([
 			n.(1).abs/2
 		)*700*l.lag(1)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"crackling - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -424,7 +424,7 @@ Dictionary.newFrom([
 		)
 	);
 	Splay.ar(k,1-y).sum;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noisy atonal - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -444,7 +444,7 @@ Dictionary.newFrom([
 		).tanh
 	};
 	i
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"feedback resonances - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -467,7 +467,7 @@ Dictionary.newFrom([
 		)
 	};
 	Limiter.ar(v,0.9,1)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"ultra high frequencies - Batuhan Bozkurt (earslap)",
 	"//Tweet by Batuhan Bozkurt (earslap)
@@ -485,7 +485,7 @@ Dictionary.newFrom([
 			)
 		).clip(0,1)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"mysterious atmo - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -500,7 +500,7 @@ Dictionary.newFrom([
 		)
 	};
 	LPF.ar(a,1e5)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"trash beat - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -512,7 +512,7 @@ Dictionary.newFrom([
 		a=((a+0.02)*LFNoise0.kr(1/2)*8).tanh;
 		a=LeakDC.ar(a,0.995)};
 	a*0.1!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"synth accompaniment - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -523,7 +523,7 @@ Dictionary.newFrom([
 		LFPulse.ar(f)*a*[1,1.01]};
 	p.(p.(100-p.(1/16,20))+p.(2,1+p.(1/4))-0.5*200)
 	+p.(100-p.(1/8,20),p.(8))*0.1
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"evolving poppings - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -542,7 +542,7 @@ Dictionary.newFrom([
 		)
 	);
 	a
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"metallic rhythms - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -558,7 +558,7 @@ Dictionary.newFrom([
 				0.6).sum,8/5,8/5,60)*
 		4e-4!2
 	}
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"harmonic metallic accompaniment - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -576,7 +576,7 @@ Dictionary.newFrom([
 			d
 		).mean.tanh
 	)}
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"walking in the storm - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -592,7 +592,7 @@ Dictionary.newFrom([
 			[1,1,0.2,1e4]
 		).tanh,2000
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"hunted sounds - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -609,7 +609,7 @@ Dictionary.newFrom([
 	w = a+a.mean;
 	LocalOut.ar(Mix.ar(w));
 	w;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"fork on guitar - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -630,7 +630,7 @@ Dictionary.newFrom([
 		800);
 	LocalOut.ar(y);
 	y;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"glitch creatures - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -645,7 +645,7 @@ Dictionary.newFrom([
 		LFNoise1.ar(0.2)+
 		1*5e4);
 	x
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"glitch machines - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -664,7 +664,7 @@ Dictionary.newFrom([
 		2,
 		20
 	)/10
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"blurry major sevenths - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -678,7 +678,7 @@ Dictionary.newFrom([
 			LPF.ar(
 				PlayBuf.ar(2,b,16/15,0,0,1),300))+
 		Blip.ar([20,21],1),2,40)/20
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"cascade of clips - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -696,7 +696,7 @@ Dictionary.newFrom([
 			)
 		),1,10
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"evolving chiptunes - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -707,7 +707,7 @@ Dictionary.newFrom([
 		var x=Dbufrd(b=LocalBuf(5).clear,i);
 		x=x**x-LFNoise0.ar(1/(2**i),50).floor%16;
 		Pulse.ar(Duty.ar(1/8,0,Dbufwr(x,b,i))*20)}!5).mean!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rhythmic drops - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -721,7 +721,7 @@ Dictionary.newFrom([
 			5e-3).sin}!8);
 	2.do{x=FreeVerb2.ar(*x++[0.1,1,1])};
 	x
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"resonant tunnel - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -736,7 +736,7 @@ Dictionary.newFrom([
 		)
 	};
 	x;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"microtonal ascending - Nathaniel Virgo (headcube)",
 	"//Tweet by Nathaniel Virgo (headcube)
@@ -756,7 +756,7 @@ Dictionary.newFrom([
 			4,0.2
 		)
 	}!10)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"scifi intro - Tim Walters",
 	"//Tweet by Tim Walters
@@ -769,7 +769,7 @@ Dictionary.newFrom([
 		y.ar(i,y.ar(i+k**i)/
 			Decay.kr(x,[i,i+1],k))}!6
 	).sum}!16).sum,1)/512
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"glitch outbursts - Tim Walters",
 	"//Tweet by Tim Walters
@@ -792,7 +792,7 @@ Dictionary.newFrom([
 			)
 		}!8
 	).product}!16).sum
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"harmonic drone1 - Tim Walters",
 	"//Tweet by Tim Walters
@@ -810,7 +810,7 @@ Dictionary.newFrom([
 			y=x.(i*k*[4,8],y,i)});
 		y}!8
 	).sum/4
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"harmonic drone2 - Tim Walters",
 	"//Tweet by Tim Walters
@@ -824,7 +824,7 @@ Dictionary.newFrom([
 			[-1,1].wrapAt(i))*
 		Gendy1.ar(6,6,1,Blip.ar(i*i+1*[0.5,0.3],9),i+1*60,i+1*100)
 	}!8).sum/4
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"electricity - Julian Rohrhuber",
 	"//Tweet by Julian Rohrhuber
@@ -835,7 +835,7 @@ Dictionary.newFrom([
 	var y = SinOsc.ar(BrownNoise.ar(30!2, 200), x * LFNoise1.kr(1!2,1,1));
 	LocalOut.ar(y);
 	y;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"chdegaulleabout - Julian Rohrhuber",
 	"//Tweet by Julian Rohrhuber
@@ -848,7 +848,7 @@ Dictionary.newFrom([
 			{exprand(300,10000)}!120
 		)
 	).mean)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"sine stairs - Julian Rohrhuber",
 	"//Tweet by Julian Rohrhuber
@@ -862,7 +862,7 @@ Dictionary.newFrom([
 			(f!8+1)*100
 		)
 	)*0.1
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noise wind - Julian Rohrhuber",
 	"//Tweet by Julian Rohrhuber
@@ -878,7 +878,7 @@ Dictionary.newFrom([
 		),0))*0.4;
 	LocalOut.ar(y);
 	y;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"nasty engine - Julian Rohrhuber",
 	"//Tweet by Julian Rohrhuber
@@ -898,7 +898,7 @@ Dictionary.newFrom([
 	);
 	LocalOut.ar(y);
 	y;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"snare polyrhythms - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -914,7 +914,7 @@ Dictionary.newFrom([
 			1)
 		.range(0,1).squared.squared
 	}.dup
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rhythmic wipes - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -926,7 +926,7 @@ Dictionary.newFrom([
 	(SinOsc.ar([220, 330])*
 		Integrator.kr(t)
 	)*0.1
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rhythmic sweeps - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -943,7 +943,7 @@ Dictionary.newFrom([
 			)
 		)
 	)/9
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noise gradients - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -958,7 +958,7 @@ Dictionary.newFrom([
 			i.ar(0.01).range(x,x)
 		)
 	}!9)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"low high chip melody - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -970,7 +970,7 @@ Dictionary.newFrom([
 			Dseq(\"123456.....ginghamginghamgingham\".as(Array).pyramid.ascii.midicps/2, inf)
 		),0.5,0.1
 	)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"atonal arpeggios - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -981,7 +981,7 @@ Dictionary.newFrom([
 	var k=LFPar.kr(a+0.5).sum;
 	var f=Latch.kr(k,Impulse.kr(a));
 	Splay.ar(SinOsc.ar(f*100+300)/5)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"bass riff to noise - Dan Stowell",
 	"//Tweet by Dan Stowell
@@ -1000,7 +1000,7 @@ Dictionary.newFrom([
 		)*9
 
 	).clip2/9
-}).clock_(t).quant_(1).fadeTime_(1).play)",
+}).fadeTime_(1).play)",
 
 	"aeolian strings - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1020,7 +1020,7 @@ Dictionary.newFrom([
 			)
 		}
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"arguing oscs - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1043,7 +1043,7 @@ Dictionary.newFrom([
 			)
 		).cubed
 	}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"bon fire night - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1059,7 +1059,7 @@ Dictionary.newFrom([
 		x.ar(d,0.15,SinOsc.ar([40,47],pi,5)),
 		0.4,0.6,TRand.ar(0,1,d)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"drunk drummer - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1078,7 +1078,7 @@ Dictionary.newFrom([
 			p.ar(i,4),b,a)
 		)
 	)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"for Eliane Radigue1 - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1096,7 +1096,7 @@ Dictionary.newFrom([
 			)
 		}!rrand(9,28)
 	).sum}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"european music study - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1112,7 +1112,7 @@ Dictionary.newFrom([
 		a.ar(b*1.5,c),
 		5e3
 	)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"frequency stacking1 - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1128,7 +1128,7 @@ Dictionary.newFrom([
 			)
 		}.sum(200)
 	}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"frequency stacking3 - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1144,7 +1144,7 @@ Dictionary.newFrom([
 			)
 		}.sum(200)
 	}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"lynch - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1157,7 +1157,7 @@ Dictionary.newFrom([
 	var o=Warp1.ar(1,b,r.kr(0,4e4,p),r.kr(0.5,1,p),1)*
 	Linen.kr(p,1);
 	GVerb.ar(o)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"for Eliane Radigue2 - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1177,7 +1177,7 @@ Dictionary.newFrom([
 			}!rrand(9,28)
 		).sum
 	}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rock manual - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1192,7 +1192,7 @@ Dictionary.newFrom([
 	(EnvGen.ar(
 		Env.new([0,0,1,0],[7,0,2]),1,1,0,1,2)
 	*w)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rosetta comet - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1208,7 +1208,7 @@ Dictionary.newFrom([
 			Saw.ar(17),300),
 		l.ar(o)
 	)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"sleep - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1224,7 +1224,7 @@ Dictionary.newFrom([
 			3,3
 		)
 	)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"that nightclub downstairs - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1242,7 +1242,7 @@ Dictionary.newFrom([
 			a*XLine.ar(1,39,99,99,0,2)
 		)
 	)!2/3
-}).clock_(t).quant_(1)fadeTime_(0).play)",
+})fadeTime_(0).play)",
 
 	"timpanis - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1259,7 +1259,7 @@ Dictionary.newFrom([
 		EnvGen.kr(
 			Env.perc(0.001,5),x)
 	}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"txalaparta - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1276,7 +1276,7 @@ Dictionary.newFrom([
 				rrand(1.9975, 1.985),-0.9988)
 		}!6
 	).sum!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"entropic saw - Thor Magnusson",
 	"//Tweet by Thor Magnusson
@@ -1292,7 +1292,7 @@ Dictionary.newFrom([
 				0,0.5/x)
 		}.dup(n).sum
 	}!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"sine clusters - Jason Dixon (mutantsounds)",
 	"//Tweet by Jason Dixon (mutantsounds)
@@ -1306,7 +1306,7 @@ Dictionary.newFrom([
 			)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"low drone - Jason Dixon (mutantsounds)",
 	"//Tweet by Jason Dixon (mutantsounds)
@@ -1324,7 +1324,7 @@ Dictionary.newFrom([
 			SinOsc.ar(x[1],0,x[2]-39)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"metallic high hits - Jason Dixon (mutantsounds)",
 	"//Tweet by Jason Dixon (mutantsounds)
@@ -1346,7 +1346,7 @@ Dictionary.newFrom([
 			}
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noisy computer sounds - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1366,7 +1366,7 @@ Dictionary.newFrom([
 			a.kr(0.5,5e3,4e3)
 		)
 	)*a.kr(5,0.4,0.5)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"dubstep bass - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1385,7 +1385,7 @@ Dictionary.newFrom([
 			)
 		), 800
 	).sum
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noise hail - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1408,7 +1408,7 @@ Dictionary.newFrom([
 		0.4,
 		2
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noisy meowing - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1421,7 +1421,7 @@ Dictionary.newFrom([
 		x.kr([1,2],6,5))*
 	Gendy3.ar(1,1,1,1,x.kr(1,99,91),1,0.1)*
 	x.ar(0.5,0.5,0.5)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"synth lead - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1437,7 +1437,7 @@ Dictionary.newFrom([
 		)*
 		(a++(a*2))
 	).sum!2/2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"synth lead 2 - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1452,7 +1452,7 @@ Dictionary.newFrom([
 		)*
 		[1,1.01,2,2.02,3.5,4.01,5.501]
 	).sum!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"S O S - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1468,7 +1468,7 @@ Dictionary.newFrom([
 			)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noise metal - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1481,7 +1481,7 @@ Dictionary.newFrom([
 			Impulse.ar((1,1.1..2)*2)
 		).lag(0.1)/2*(1,1.25..8)
 	).sum**3!2).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rough synth - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1494,7 +1494,7 @@ Dictionary.newFrom([
 			Impulse.ar([1,1.0001])
 		).lag(0.1)*(1,1.25..8)
 	).sum**3!2).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"sine melody - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1507,7 +1507,7 @@ Dictionary.newFrom([
 			Impulse.ar([1,1.0001])
 		).lag(0.05)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"noisy wind storm - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1523,7 +1523,7 @@ Dictionary.newFrom([
 		[0.13,0.1],
 		[x/2,x/2.1]
 	).tanh
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"computer scifi - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1539,7 +1539,7 @@ Dictionary.newFrom([
         SinOsc.ar(x)*
         AmpComp.kr(x,10)
     )
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"sine walk gliss - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1560,7 +1560,7 @@ Dictionary.newFrom([
 			};d.wait
 		}
 	}
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"ascending crackings - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1577,7 +1577,7 @@ Dictionary.newFrom([
 			)
 		),
 		Line.kr(100,3000,80),0.1)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"tonal scales - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1591,7 +1591,7 @@ Dictionary.newFrom([
 			Impulse.ar(4)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"accelerated barrel hits - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1611,7 +1611,7 @@ Dictionary.newFrom([
 		4,
 		1
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"hihat rhythmic pattern - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1625,7 +1625,7 @@ Dictionary.newFrom([
 		Demand.kr(p,0,Dwhite(0.01,0.5,inf)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"random sine harmonics - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1647,7 +1647,7 @@ Dictionary.newFrom([
 			)*ToggleFF.ar(p)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"ragged sines - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1662,7 +1662,7 @@ Dictionary.newFrom([
 			)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"sine glissandos - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1697,7 +1697,7 @@ Dictionary.newFrom([
 	l=DelayN.ar(l,1,1/2);
 	LocalOut.ar(l/3);
 	l!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"chiptune accompaniment - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1710,7 +1710,7 @@ Dictionary.newFrom([
 			LFNoise0.kr(1/[16,12,8,4],400,999).round(150)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"chiptune interlude - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1723,7 +1723,7 @@ Dictionary.newFrom([
 			LFNoise0.kr(1/[2,2,4,4],250,300).round(50)
 		)
 	).lag(LFCub.kr(1/8,0.001,0.003))
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"saw galore - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1744,7 +1744,7 @@ Dictionary.newFrom([
 			)
 		)
 	)/2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"triangle galore - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1763,7 +1763,7 @@ Dictionary.newFrom([
 		l.kr((1..8),0,0.2).excess(0.01)*
 		({|i|16-i/20}!16)
 	).sum!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"synth calling - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1776,7 +1776,7 @@ Dictionary.newFrom([
 		o@3*0.299+0.3,
 		o@2*2+2,
 		o@1,o[0]*0.1+0.1)!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"kalimba polyrhythm - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1793,7 +1793,7 @@ Dictionary.newFrom([
 			)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"beat gaida - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1809,7 +1809,7 @@ Dictionary.newFrom([
 			4),
 		a,8e-3,1,0.001,0.1,1/3
 	)+a
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"glitch rhythmic machine - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1828,7 +1828,7 @@ Dictionary.newFrom([
 		),
 		l.kr(1/8,0.1,0.15),2
 	).fold2!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"random melody - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1841,7 +1841,7 @@ Dictionary.newFrom([
 			Dust.ar(8.rand+1)).lag(1/99)*
 		SinOsc.ar((50,100..800).choose*r)
 	}!40)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"groove melody - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1855,7 +1855,7 @@ Dictionary.newFrom([
 			c.kr(p,(50,75..300)),
 			Decay2.kr(p)+0.8),
 		c.kr(p,[-0.5,0,0.5]).lag)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"harmonic drone - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1874,7 +1874,7 @@ Dictionary.newFrom([
 			l.kr(1)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"major rhythmic ostinato - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1887,7 +1887,7 @@ Dictionary.newFrom([
 		Impulse.ar(4),
 		Dust.ar(4)
 	).lag
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"augmented major - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1903,7 +1903,7 @@ Dictionary.newFrom([
 		300,
 		14
 	).flop.sum*4;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"fluctuating sines - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1922,7 +1922,7 @@ Dictionary.newFrom([
 			)/9}
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"racing motors - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1940,7 +1940,7 @@ Dictionary.newFrom([
 			LFNoise2.kr(1)
 	)};
 	a
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"rhythmic harmonics - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1957,7 +1957,7 @@ Dictionary.newFrom([
 			1/2
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"alien spaceship - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1969,7 +1969,7 @@ Dictionary.newFrom([
 	a=FreqShift.ar(a,LFNoise0.kr(1/4,90));
 	LocalOut.ar(DelayC.ar(a,1,0.1,0.9));
 	a
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"minimal beat - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -1991,7 +1991,7 @@ Dictionary.newFrom([
 		)
 	);
 	l
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"wind on mic - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -2009,7 +2009,7 @@ Dictionary.newFrom([
 			), 0.1,1,0.5
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"chill pentantonic - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -2028,7 +2028,7 @@ Dictionary.newFrom([
 				)*5,midicps([0,3,5,7,10]+60)
 			)
 	).sum,200,3)/20
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"percussive blops - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -2045,7 +2045,7 @@ Dictionary.newFrom([
 			f=x.(80,400),
 			f/4,9),
 		9,0.5)).flop.sum;
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"harmonic polyrthythms - Juan A. Romero (rukano)",
 	"//Tweet by Juan A. Romero (rukano)
@@ -2061,7 +2061,7 @@ Dictionary.newFrom([
 			LFCub.ar({e.new(66,666)}!9)
 		)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"crying babies - mathk",
 	"//Tweet by mathk
@@ -2072,7 +2072,7 @@ Dictionary.newFrom([
 	SinOsc.ar([[333,444],[222,555]]*
 		(k+(rrand(1.0,5.0))),0,k
 	).sum.cubed * 0.1
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"major wandering - mathk",
 	"//Tweet by mathk
@@ -2084,7 +2084,7 @@ Dictionary.newFrom([
 			LFNoise0.kr(1).range(110,550).round(110),
 			0.5),
 		0,0.25).sum.clip(-0.6,0.6).cubed.dup
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"inharmonic hits - mathk",
 	"//Tweet by mathk
@@ -2098,7 +2098,7 @@ Dictionary.newFrom([
 				Dust.ar([7,0.7]),7)
 		).cubed,0.77,0.7
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"phasing saws - mathk",
 	"//Tweet by mathk
@@ -2111,7 +2111,7 @@ Dictionary.newFrom([
 			LFNoise0.kr(0.05,-13,-14)
 		).range(200,9000),0.1
 	).clip(-0.8,0.3)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"ruler bouncing - mathk",
 	"//Tweet by mathk
@@ -2122,7 +2122,7 @@ Dictionary.newFrom([
 	Klank.ar(`[a,a/1111,a/111],
 		Impulse.ar([1,1.1]/3)
 	).clip(0,1)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"bubbles - mathk",
 	"//Tweet by mathk
@@ -2137,7 +2137,7 @@ Dictionary.newFrom([
 		LFSaw.kr(11,0,1110,1111),
 		0.1
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"alarm - mathk",
 	"//Tweet by mathk
@@ -2149,7 +2149,7 @@ Dictionary.newFrom([
 		BrownNoise.ar(0.4) *
 		Impulse.ar(33)
 	)/4!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
     "ballad - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge
@@ -2168,7 +2168,7 @@ Dictionary.newFrom([
 			f%d/12,
 			ar(p)/2,
 			Buffer.sendCollection(s,Env.perc.discretize))*0.23)).collect(_.sum);
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"stochastic composition - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge, published at 27 Jan 2023
@@ -2191,7 +2191,7 @@ Dictionary.newFrom([
 		).max).sin.abs**(10)).tanh,
 		ar(SinOsc,m*m,0,0.5)
 	)
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"dense glitch landscape - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge, published at 20 Jan 2023
@@ -2204,7 +2204,7 @@ Dictionary.newFrom([
 	var a=perfectShuffle({l.(0s1,1)}!3)++({l.(1,0s1)}!3);
 	var e=ar(EnvGen,Env(a,a/a.sum,a.neg*9).circle,1,1,0,1/f=(l.(12,999)));
 	ar(Splay,tanh(e.blend(sin(e*f),1-g=ar(EnvGen,perc(Env,0s5,1b/f),e>0.1))+g))
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"catfarm - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge, published at 20 Jan 2023
@@ -2218,7 +2218,7 @@ Dictionary.newFrom([
 		f=ar(o,f*a.rotate(i+3),0,ar(o,f)).tanh}!9;
 	f.tanh),
 	kr(o,f.sum.abs))
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 	"beat metallic sweeps - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge, published at 20 Jan 2023
@@ -2240,7 +2240,7 @@ Dictionary.newFrom([
 		p.log2*1e-3*
 		(sin(1-log2(p*td.lag3(r*1e-2,1-r)))**10)/2
 	).sum!2
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
     "ambient ligeti - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge, published at 20 Jan 2023
@@ -2260,7 +2260,7 @@ Dictionary.newFrom([
 			)
 		),2/4
 	))
-}).clock_(t).quant_(1).fadeTime_(12).play)",
+}).fadeTime_(12).play)",
 
 	"standard acid - Lukas Nystrand von Unge",
 	"//Tweet by Lukas Nystrand von Unge, published at 20 Jan 2023
@@ -2276,7 +2276,7 @@ Dictionary.newFrom([
 			),
 			kr(LFSaw,-8!2*f).exprange(100,f*8000),
 			kr(l,1,2,2).abs)))
-}).clock_(t).quant_(1).fadeTime_(0).play)",
+}).fadeTime_(0).play)",
 
 
 ]);

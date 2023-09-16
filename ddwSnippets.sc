@@ -242,10 +242,12 @@
 		};
 	}
 
-	*load { |version=\node|
+	*load { |version=\SCTweets_node|
 		case
-		{version==\node} {this.snips="SCTweets/SCTweets-nodes.scd".resolveRelative.load}
-		{version==\mod1} {this.snips="SCTweets/SCTweets-nodes-mod1.scd".resolveRelative.load}
+		{version==\SCTweets_node} {this.snips="SCTweets/SCTweets-nodes.scd".resolveRelative.load}
+		{version==\SCTweets_node_multichannel} {this.snips="SCTweets/SCTweets-nodes-multichannel.scd".resolveRelative.load}
+		{version==\SCTweets_mod1} {this.snips="SCTweets/SCTweets-nodes-mod1.scd".resolveRelative.load}
+		{version==\SCTweets_mod2} {this.snips="SCTweets/SCTweets-nodes-mod2.scd".resolveRelative.load}
 
 	}
 
